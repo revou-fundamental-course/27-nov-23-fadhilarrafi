@@ -1,0 +1,52 @@
+header{
+    background-color: rgb(124, 124, 124);
+    padding: 20px ;
+    margin: 3% 10%;
+    text-align:center ;
+}
+h1{
+    color: bisque;
+    text-align: center;
+}
+body{
+    background-color: rgb(79, 78, 78);
+}
+
+label{
+    color:bisque;
+}
+
+button {
+    background-color: hsl(158, 95%, 34%); 
+    border: none;
+    color:bisque;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+div{
+    text-align: center;
+    padding: 20px 30px;
+}
+#keliling{
+    background-color: rgb(124, 124, 124);
+    padding: 20px ;
+    margin: 3% 10%;
+}
+#luas{
+    background-color: rgb(124, 124, 124);
+    padding: 30px ;
+    margin: 3% 10%;
+    display: none;
+}
+
+.textRes{
+    color: bisque;
+    font-size: 40px;
+}
+
+.text1{
+    font-size: 20px;
+}
