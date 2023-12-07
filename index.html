@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Segitiga!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 style="font-size: 40px;">Kalkulator Segitiga</h1>
+        <h3>Pilih Kalkulator !</h3>
+        <button onclick="toggleKeliling()">Keliling</button>
+        <button onclick="toggleLuas()">Luas</button>
+    </header>
+
+    <main>
+        <div id="keliling">
+            <h1 class="a1">Keliling Segitiga </h1>
+            <img src="img/keliling.png" height="250px"><br>
+            <label class="text1" id="labelA">Sisi A :</label>
+            <input type="text" id="textA"><br>
+
+            <label class="text1" id="labelB">Sisi B :</label>
+            <input type="text" id="textB"><br>
+
+            <label class="text1" id="labelC">Sisi C :</label>
+            <input type="text" id="textC"><br>
+            <br>
+            <button type="button" id="sButton">Calculate !</button>
+            <button type="button" id="rButton">Reset</button><br>
+            <br>
+            <label class="textRes" id="resolution"></label>
+            <br>
+        </div>       
+        <div id="luas">
+            <h1 class="a2">Luas Segitiga</h1>
+            <img src="img/luas.png" height="250px"><br>
+            <label class="text1" id="labelx">Alas :</label>
+            <input type="text" id="textX"><br>
+
+            <label class="text1" id="labely">Tinggi :</label>
+            <input type="text" id="textY"><br>
+            <br>
+
+            <button type="button" id="sButton2">Calculate !</button>
+            <button type="button" id="rButton2">Reset</button><br>
+            <br>
+            <label class="textRes" id="resolutionLuas"></label>
+            <br>
+        </div> 
+        <script src="index.js"></script>
+    </main>
+</body>
+</html>
